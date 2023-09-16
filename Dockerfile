@@ -2,7 +2,7 @@ FROM openjdk:17
 
 WORKDIR /app
 
-COPY /build/libs/backend-fight-0.0.1-SNAPSHOT-plain.jar /app/backend-fight.jar
+COPY /build/libs/backend-fight-0.0.1-SNAPSHOT.jar /app/backend-fight.jar
 
 EXPOSE 8080
 
